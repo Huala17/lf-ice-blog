@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', sans-serif;  
+}
+.a1{
+    color: #4C2A1D;
+    text-decoration: none;
+}
+.a1:hover{
+    color: #4C2A1D;
+    text-decoration: none;
+}
+.a1:active{
+    color: #4C2A1D;
+    text-decoration: none;
+}
+nav{
+    position: relative;
+}
+.nav-1{
+    width: 100%;
+    height: 120px;
+    position: fixed;z-index: 99;
+    background-color: #ffffff;
+    border-bottom:1px #F9F0CF solid;
+}
+.nav-1-s{
+    width: 100%;
+    height: 120px;
+    background-color: #F9F0CF;
+}
+.logo-box{
+    width: 30vw;
+    position: absolute;
+    left: 30px;top: 30px;
+}
+.logo-1-1{
+    height: 60px;
+    width: 160px;
+    background-image: url(../image/LOGO@2x.png);
+    background-size: cover;
+}
+.menu-1-1{
+    color:#4C2A1D;
+    display: flex;
+    position: absolute;
+    left: 38vw;top: 50px;
+}
+.item-1{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.item-1-1{
+    height: 12px;
+    width: 15px;
+    background-size: cover;
+    margin-right: 5px;
+}
+.item-1-1-1{
+    background-image: url(../image/Icon-material-home-b.png);
+}
+.item-1-1-2{
+    background-image: url(../image/Icon-awesome-shopping-cart-b.png);
+}
+.item-1-1-3{
+    background-image: url(../image/Icon-material-find-in-page-b.png);
+    width: 10px;
+    height: 12px;
+}
+.item-1-1-4{
+    background-image: url(../image/Icon-awesome-blog-b.png);
+    width: 12px;
+    height: 12px;
+}
+.item-1-1-5{
+    background-image: url(../image/Icon-material-mail-b.png);
+}
+.icon_menu-1-1{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0px;top: 50px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.icon-1-1{
+    background-image: url(../image/Icon-awesome-search-b.png);
+}
+.icon-1-2{
+    background-image: url(../image/Icon-feather-shopping-cart-b.png);
+}
+.icon-1-3{
+    background-image: url(../image/Icon-ionic-ios-contact-b.png);
+}
+.icon-1-4{
+    background-image: url(../image/Icon-feather-settings-b.png);
+}
+.banner-nav{
+    height: 45vw;
+    background-image: url(../image/ross-sokolovski-zkjrSeWBbkg-unsplash\ \(1\).jpg);
+    background-size: cover;
+    position: relative;
+}
+.logo-nav-2{
+    width: 13vw;
+    height: 4.9vw;
+    background-image: url(../image/LOGO@3x.png);
+    background-size: cover;
+    position: absolute;
+    right: 10vw;
+    bottom: 5vw;
+}
+.mobile-menu{
+    display: none;
+}
+.burgerMenu{
+    position: absolute;
+    width: 30px;
+    left: 30px;top: 10px;
+    display: none;
+}
+.line{
+    height: 3px;
+    margin: 7.5px 0;
+    background-color: #4C2A1D;
+}
+@media(max-width:1400px){
+    .nav-1{
+        height: 60px;
+    }
+    .nav-1-s{
+        height: 60px;
+    }
+    .logo-box{
+        position: absolute;
+        left: 30px;top: 10px;
+    }
+    .logo-box{
+        position: absolute;
+        left: 30px;top: 10px;
+    }
+    .logo-1-1{
+        height: 40px;
+        width: 106px;
+        background-size: cover;
+    }
+    .menu-1-1{
+        left: 38vw;top: 20px;
+    }
+    .icon_menu-1-1{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 0px;top: 20px;
+    }
+}
+@media(max-width:1024px){
+
+    .pc-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .burgerMenu{
+        display: block;
+    }
+    .logo-box{
+        left: 35vw;top: 10px;
+    }
+    .logo-1-1{
+        margin-left: auto;margin-right: auto;
+    }
+}
+@media(max-width:414px){
+    .banner-nav{
+        height: 165vw;
+        background-image: url(../image/blog_mobile_banner.jpg);
+        background-size: cover;
+        position: relative;
+    }
+    .logo-nav-2{
+        width: 26vw;
+        height: 9.8vw;
+        right: 5vw;
+    }
+    .icon-1-2{
+        display: none;
+    }
+    .icon-1-4{
+        display: none;
+    }
+}
